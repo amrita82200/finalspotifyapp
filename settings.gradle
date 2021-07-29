@@ -1,0 +1,8 @@
+include ':spotify-app-remote-release-0.7.2'
+include ':gson-2.2.4'
+include ':aws-android-sdk-core-2.16.13'
+include ':aws-android-sdk-apigateway-core-2.16.13'
+include ':aws-apigateway-getlyrics-1.0.0'
+include ':spotify-app-remote-release-0.7.2'
+include ':app'
+rootProject.name = "Spotify Karaokeee"

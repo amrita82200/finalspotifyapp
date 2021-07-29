@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Spotify Karaokeee</string>
+    <string name="title_activity_navigation_home_page">MainActivity</string>
+    <string name="logo">MAD logo</string>
+    <string name="e_mail_address">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Sign Up</string>
+    <string name="title_activity_home_page">MainActivity</string>
+    <string name="title_home"></string>
+    <string name="title_song_search"></string>
+    <string name="title_user_profile"></string>
+    <string name="lyrics">hooooooooooooiiyeah</string>
+    <string name="song_title">A Moment Apart</string>
+    <string name="album_title">A Moment Apart</string>
+    <string name="current_time">0:00</string>
+    <string name="total_time">0:00</string>
+    <string name="artist_name">O D E S Z A</string>
+    <string name="rec">Rec</string>
+    <string name="synced">Synced</string>
+    <string name="top_requested_this_month">Top Requested This Month</string>
+    <string name="top_requested_this_week">Top Requested This Week</string>
+    <string name="top_requested_today">Top Requested Today</string>
+    <string name="top_requested">Top Requested</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="lyrics_style">
+    <item name="android:textSize">
+        20sp
+    </item>
+    <item name="android:textColor">
+        #FFFFFF
+    </item>
+    </style>
+
+
+    <style name="song_title">
+        <item name="android:textSize">
+            15sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="album_title">
+        <item name="android:textSize">
+            12sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="current_time">
+        <item name="android:textSize">
+            12sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="total_time">
+        <item name="android:textSize">
+            12sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="artist_name">
+        <item name="android:textSize">
+            25sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+</resources>
