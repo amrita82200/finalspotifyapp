@@ -23,4 +23,5 @@
     <string name="top_requested_this_week">Top Requested This Week</string>
     <string name="top_requested_today">Top Requested Today</string>
     <string name="top_requested">Top Requested</string>
+    <string name="daily1_top_req" />
 </resources>

@@ -198,7 +198,7 @@ public class LyricDisplayPage extends AppCompatActivity implements View.OnClickL
             public void run(){
                 mSpotifyAppRemote.getPlayerApi().getPlayerState().setResultCallback(playerState ->{
                     Track track = playerState.track;
-                    if (track != null) {//HERE!!!
+                    if (track != null) {
                         //passes in track name and artist name into displayLyrics method
                         displayLyrics(track.name, track.artist.name);
                         //sets song title, album title, and artist name to our text views
@@ -207,6 +207,16 @@ public class LyricDisplayPage extends AppCompatActivity implements View.OnClickL
                         setArtistName(track.artist.name);
                         setAlbumCover(track.imageUri);
                         setTrackDuration((int)playerState.track.duration);
+                        long totaltracktime = (track.duration)/1000;
+                        long halfwaythrough = totaltracktime/2;
+                        long now = ourSeekBar.getProgress();
+
+
+                        //System.out.println("Total Time: "+ totaltracktime);
+                        //System.out.println("Half Time: "+ halfwaythrough);
+                        //System.out.println("Curr Time: "+ now);
+
+
                         updateSeekBar((int)playerState.playbackPosition);
                         handler.postDelayed(this, 1000);
                     }
@@ -228,8 +238,10 @@ public class LyricDisplayPage extends AppCompatActivity implements View.OnClickL
                     }
                 });
             }
+
+
         });
-    }
+    }//start song
 
     private void setTrackDuration(int duration){
         //sets max duration of the seek bar
