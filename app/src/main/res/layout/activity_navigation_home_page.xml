@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".NavigationHomePage"
     android:background="@color/black">
+
+
     <fragment
         android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
@@ -21,43 +23,69 @@
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/mobile_navigation" />
 
+    <Button
+        android:id="@+id/hour_top_requested"
+        android:layout_width="398dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:text="Top Requested This Hour"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/daily1_top_req"
+        android:id="@+id/song_title_this_hour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/daily1_top_req"
+        android:text="@string/song_title_this_hour"
         android:textAppearance="@style/artist_name"
         android:textFontWeight="500"
-        app:layout_constraintBottom_toTopOf="@+id/weekly_top_requested"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/daily_top_requested" />
+        app:layout_constraintTop_toBottomOf="@+id/hour_top_requested" />
+
+    <TextView
+        android:id="@+id/artist_name_this_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_name_this_hour"
+        android:textAppearance="@style/song_title"
+        android:textFontWeight="500"
+        app:layout_constraintBottom_toTopOf="@+id/daily_top_requested"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song_title_this_hour" />
 
     <Button
         android:id="@+id/daily_top_requested"
         android:layout_width="398dp"
         android:layout_height="63dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/rectangle"
         android:text="@string/top_requested_today"
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/hour_top_requested" />
 
     <Button
         android:id="@+id/weekly_top_requested"
         android:layout_width="398dp"
         android:layout_height="63dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/rectangle"
         android:text="@string/top_requested_this_week"
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/daily_top_requested" />
 
@@ -65,13 +93,13 @@
         android:id="@+id/monthly_top_requested"
         android:layout_width="398dp"
         android:layout_height="63dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="88dp"
         android:background="@drawable/rectangle"
         android:text="@string/top_requested_this_month"
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weekly_top_requested" />
 

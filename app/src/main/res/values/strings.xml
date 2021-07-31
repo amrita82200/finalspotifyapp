@@ -24,4 +24,6 @@
     <string name="top_requested_today">Top Requested Today</string>
     <string name="top_requested">Top Requested</string>
     <string name="daily1_top_req" />
+    <string name="artist_name_this_hour">Artist Name this Hour</string>
+    <string name="song_title_this_hour">Song Title This Hour</string>
 </resources>

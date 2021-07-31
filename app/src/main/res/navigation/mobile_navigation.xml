@@ -15,7 +15,7 @@
         android:id="@+id/navigation_search_song"
         android:name="com.example.spotifykaraokeee.ui.SearchSong.SearchSongFragment"
         android:label="@string/title_song_search"
-        tools:layout="@layout/fragment_search_song" />
+        tools:layout="@layout/song_search_fragment" />
 
     <fragment
         android:id="@+id/navigation_user_profile"

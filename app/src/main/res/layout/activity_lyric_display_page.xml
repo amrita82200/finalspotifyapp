@@ -10,6 +10,17 @@
 
 
 
+    <ImageButton
+        android:id="@+id/time_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="484dp"
+        android:onClick="showAlertDialogButtonClicked"
+        android:background="@drawable/ic_sharp_edit_note_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/lyrics_box"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/comment_button"
@@ -22,8 +33,6 @@
         app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toEndOf="@+id/artist_name"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
     <LinearLayout
         android:id="@+id/album_frame"
@@ -211,7 +220,7 @@
             android:layout_margin="25dp"
             android:background="@drawable/ic_baseline_radio_button_unchecked_24"
             android:backgroundTint="@color/white"
-             />
+            />
     </LinearLayout>
 
 

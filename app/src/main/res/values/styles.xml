@@ -2,12 +2,10 @@
 <resources>
 
     <style name="lyrics_style">
-    <item name="android:textSize">
-        20sp
-    </item>
-    <item name="android:textColor">
-        #FFFFFF
-    </item>
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 
 
